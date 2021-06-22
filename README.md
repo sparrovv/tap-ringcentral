@@ -18,7 +18,7 @@ It:
 #### 1. Install
 
 ```bash
-git clone git@github.com:fishtown-analytics/tap-ringcentral.git
+git clone https://github.com/singer-io/tap-ringcentral.git
 cd tap-ringcentral
 pip install .
 ```
@@ -66,5 +66,12 @@ Step 4 a file called `catalog.json` that specifies all the available endpoints a
 ```bash
 tap-ringcentral -c config.json --catalog catalog.json
 ```
+
+#### 7. Add Testing Data Via the Softphone App in Sandbox mode
+
+In order to verify your tap is running correctly, you'll want to add some testing data to your sandbox. This can be done via the softphone app (RC Phone). (download here: https://support.ringcentral.com/download.html ). On the login screen, you can switch to sandbox mode using the below commands. From here, add some calls, run it, and verify the result was the expected behavior.
+
+On Windows: Ctrl + F2
+On Mac OS: Fn + Command + F2
 
 Copyright &copy; 2019 Stitch
