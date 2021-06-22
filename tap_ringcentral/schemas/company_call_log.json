@@ -15,7 +15,7 @@
         },
         "startTime": {
             "type": "string",
-            "format": "date-time"
+            "format": "datetime"
         },
         "duration": {
             "type": "integer"
