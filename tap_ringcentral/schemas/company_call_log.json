@@ -26,6 +26,9 @@
         "direction": {
             "type": ["null", "string"]
         },
+        "recording": {
+            "type": ["null", "string"]
+        },
         "action": {
             "type": ["null", "string"]
         },
