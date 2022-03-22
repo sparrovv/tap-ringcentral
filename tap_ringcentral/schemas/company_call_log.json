@@ -27,7 +27,21 @@
             "type": ["null", "string"]
         },
         "recording": {
-            "type": ["null", "string"]
+            "type": "object",
+            "properties": {
+                "uri": {
+                    "type": ["null", "string"]
+                },
+                "id": {
+                    "type": ["null", "string"]
+                },
+                "type": {
+                    "type": ["null", "string"]
+                },
+                "contentUri": {
+                    "type": ["null", "string"]
+                }
+            }
         },
         "action": {
             "type": ["null", "string"]
